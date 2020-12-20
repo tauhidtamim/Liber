@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">Liber</string>
     <string name="logo_name">Liber</string>
-    <!--    <string name="slogan_name"> Something very magical can happen when you read a book!</string>-->
+
+    <!--    strings for onboarding screen-->
+
+    <string name="first_slide_title"> Welcome to Liber! </string>
+    <string name="second_slide_title"> Maintain Your Virtual Bookshelf </string>
+    <string name="third_slide_title"> Search For Books </string>
+
+    <string name="first_slide_desc"> Something very magical can happen when you read a book. </string>
+    <string name="second_slide_desc"> Catalog the books you read in appropriate shelves. </string>
+    <string name="third_slide_desc"> So many books, so little time. Search for books you would like, get to know about books you are curious about. </string>
+
+    <string name="lets_get_started"> LET\'S GET STARTED! </string>
+    <string name="skip_btn"> SKIP </string>
+
+
+
 </resources>

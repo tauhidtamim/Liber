@@ -10,24 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d647db93-1190-4020-8c26-84990c90b59e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/Common/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/Common/SplashScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/brandon-grotesque-black-58a8a3e824392.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/brandon_grotesque_black.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/brandon-grotesque-bold-italic-58a8a48221563.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/brandon_grotesque_bold_italic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/brandon-grotesque-light-58a8a4b38001d.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/brandon_grotesque_light.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/brandon-grotesque-light-italic-58a8a4ccb88be.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/brandon_grotesque_light_italic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/brandon-grotesque-medium-italic-58a8a3c40866a.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/brandon_grotesque_medium_italic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/brandon-grotesque-regular-italic-58a8a456c4724.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/brandon_grotesque_regular_italic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/brandon-grotesque-thin-italic-58a8a3a8861fe.otf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/brandon_grotesque_thin_italic.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
         <option value="resourceFile" />
       </list>
     </option>
@@ -68,6 +70,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="R58N644JG1P" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-20T17:54:43.991Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi" />
@@ -77,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="android.template.-2036118">
+      <recent name="com.inxs5859.liber.Common" />
       <recent name="com.inxs5859.liber.User" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -161,37 +166,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1608476097172">
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1608486083520">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1608476097172" />
-    <state width="1253" height="133" key="GridCell.Tab.0.bottom" timestamp="1608475518794">
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1608486083520" />
+    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1608488535406">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="133" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1608475518794" />
-    <state width="1253" height="133" key="GridCell.Tab.0.center" timestamp="1608475518792">
+    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1608488535406" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1608488713596">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="133" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1608475518792" />
-    <state width="1253" height="133" key="GridCell.Tab.0.left" timestamp="1608475518789">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1608488713596" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1608488713593">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="133" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1608475518789" />
-    <state width="1253" height="133" key="GridCell.Tab.0.right" timestamp="1608475518793">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1608488713593" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1608488713593">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="133" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1608475518793" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1608488713593" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1608488713594">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1608488713594" />
     <state x="198" y="31" key="SettingsEditor" timestamp="1608459682431">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="198" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1608459682431" />
-    <state x="473" y="176" width="476" height="441" key="chooseDestDirectoryDialog" timestamp="1608477212063">
+    <state x="473" y="176" width="476" height="441" key="chooseDestDirectoryDialog" timestamp="1608484347445">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="473" y="176" width="476" height="441" key="chooseDestDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1608477212063" />
+    <state x="473" y="176" width="476" height="441" key="chooseDestDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1608484347445" />
     <state x="364" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1608474023922">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="364" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1608474023922" />
+    <state x="379" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1608489865699">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="88" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1608489865699" />
   </component>
 </project>
