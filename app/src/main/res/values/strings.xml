@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Liber</string>
     <string name="logo_name">Liber</string>
-    <string name="slogan_name"> Something very magical can happen when you read a book!</string>
+    <!--    <string name="slogan_name"> Something very magical can happen when you read a book!</string>-->
 </resources>
