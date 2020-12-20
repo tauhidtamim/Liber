@@ -11,6 +11,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+import com.inxs5859.liber.Common.LoginSignUp.LoginScreen;
 import com.inxs5859.liber.R;
 import com.inxs5859.liber.User.UserDashboard;
 
@@ -60,7 +61,7 @@ public class SplashScreen extends AppCompatActivity {
 
                 }else{
 
-                    Intent intent = new Intent(getApplicationContext(), UserDashboard.class);
+                    Intent intent = new Intent(getApplicationContext(), LoginScreen.class);
                     startActivity(intent);
                     finish();
                 }

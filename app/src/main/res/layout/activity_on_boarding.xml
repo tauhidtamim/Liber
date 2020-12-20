@@ -46,7 +46,8 @@
             android:background="@color/colorPrimaryDark"
             android:text="@string/lets_get_started"
             android:textColor="#F8F8F8"
-            android:visibility="invisible"/>
+            android:visibility="invisible"
+            android:onClick="skip"/>
 
         <LinearLayout
             android:id="@+id/dots"

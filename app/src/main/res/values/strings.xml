@@ -16,5 +16,13 @@
     <string name="skip_btn"> SKIP </string>
 
 
+<!--    strings for welcome screen-->
+
+    <string name="login_heading"> Welcome to Liber! </string>
+    <string name="login_desc"> Please sign up to Liber and create your own profile if you already haven\'t. Otherwise, simply log in! </string>
+    <string name="login_btn"> LOGIN </string>
+    <string name="signup_btn"> SIGN UP </string>
+
+
 
 </resources>
