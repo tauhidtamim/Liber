@@ -7,13 +7,13 @@ import android.view.WindowManager;
 
 import com.inxs5859.liber.R;
 
-public class LoginScreen extends AppCompatActivity {
+public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //remove status bar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_login_screen);
+        setContentView(R.layout.activity_login);
     }
 }

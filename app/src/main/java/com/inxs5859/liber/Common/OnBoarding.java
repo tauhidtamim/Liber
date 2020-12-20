@@ -14,12 +14,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.inxs5859.liber.Common.LoginSignUp.LoginScreen;
+import com.inxs5859.liber.Common.LoginSignUp.WelcomeScreen;
 import com.inxs5859.liber.HelperClasses.SliderAdapter;
 import com.inxs5859.liber.R;
-import com.inxs5859.liber.User.UserDashboard;
-
-import org.w3c.dom.Text;
 
 public class OnBoarding extends AppCompatActivity {
 
@@ -52,7 +49,7 @@ public class OnBoarding extends AppCompatActivity {
     }
 
     public void skip(View view){
-        startActivity(new Intent(this, LoginScreen.class));
+        startActivity(new Intent(this, WelcomeScreen.class));
         finish();
     }
 

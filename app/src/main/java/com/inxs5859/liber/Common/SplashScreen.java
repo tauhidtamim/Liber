@@ -11,13 +11,13 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import com.inxs5859.liber.Common.LoginSignUp.LoginScreen;
+import com.inxs5859.liber.Common.LoginSignUp.Login;
+import com.inxs5859.liber.Common.LoginSignUp.WelcomeScreen;
 import com.inxs5859.liber.R;
-import com.inxs5859.liber.User.UserDashboard;
 
 public class SplashScreen extends AppCompatActivity {
 
-    private static int SPLASH_TIMER = 5000;
+    private static int SPLASH_TIMER = 2000;
 
     //variables
     ImageView backgroundImage;
@@ -55,13 +55,13 @@ public class SplashScreen extends AppCompatActivity {
                     editor.putBoolean("firstTime", false);
                     editor.commit();
 
-                    Intent intent = new Intent(getApplicationContext(), OnBoarding.class);
+                    Intent intent = new Intent(getApplicationContext(), OnBoarding.class);//Onboarding e hobe, test er jonno login deya
                     startActivity(intent);
                     finish();
 
                 }else{
 
-                    Intent intent = new Intent(getApplicationContext(), LoginScreen.class);
+                    Intent intent = new Intent(getApplicationContext(), WelcomeScreen.class);//welcome screen hobe
                     startActivity(intent);
                     finish();
                 }
