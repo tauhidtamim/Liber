@@ -23,11 +23,21 @@
     <string name="login_btn"> LOGIN </string>
     <string name="signup_btn"> SIGN UP </string>
 
-<!--    strings for login screen-->
+    <!--    strings for login screen-->
 
     <string name="login_screen_heading"> LOGIN </string>
     <string name="enter_username"> Enter Username </string>
     <string name="enter_password"> Enter Password </string>
     <string name="remember_me"> Remember Me </string>
+
+
+    <!-- fragment strings -->
+    <string name="my_books_fragment">MY BOOKS FRAGMENT</string>
+    <string name="search_fragment">SEARCH FRAGMENT</string>
+    <string name="stats_fragment">STATS FRAGMENT</string>
+    <string name="settings_fragment">SETTINGS FRAGMENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

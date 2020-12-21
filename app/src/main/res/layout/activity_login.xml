@@ -113,7 +113,8 @@
                 android:layout_marginTop="20dp"
                 android:background="@color/colorPrimary"
                 android:text="@string/login_screen_heading"
-                android:textColor="@color/white">
+                android:textColor="@color/white"
+                android:onClick="callDashboard">
 
             </Button>
 

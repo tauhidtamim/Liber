@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mybooks"
+        android:icon="@drawable/bottom_nav_book_icon"
+        android:title="My Books"
+        app:cnb_backgroundColor="#5B5BDD"
+        app:cnb_textColor="@color/white" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/bottom_nav_search_icon"
+        android:title="Search"
+        app:cnb_backgroundColor="#5B5BDD"
+        app:cnb_textColor="@color/white" />
+
+    <item
+        android:id="@+id/stats"
+        android:icon="@drawable/bottom_nav_stats_icon"
+        android:title="Stats"
+        app:cnb_backgroundColor="#5B5BDD"
+        app:cnb_textColor="@color/white" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/bottom_nav_settings_icon"
+        android:title="Settings"
+        app:cnb_backgroundColor="#5B5BDD"
+        app:cnb_textColor="@color/white" />
+
+</menu>
