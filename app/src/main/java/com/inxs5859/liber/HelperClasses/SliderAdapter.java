@@ -23,9 +23,9 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     int images[]={
-            R.drawable.reading,
+            R.drawable.ic_reading_person,
             R.drawable.bookshelf,
-            R.drawable.searchbooks,
+            R.drawable.ic_search_books,
     };
 
     int headings[]={

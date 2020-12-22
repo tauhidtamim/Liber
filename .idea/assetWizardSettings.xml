@@ -29,8 +29,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_splash_screen_background" />
-                            <entry key="sourceFile" value="$PROJECT_DIR$/../splash_screen_background.svg" />
+                            <entry key="outputName" value="ic_welcome_screen_icon" />
+                            <entry key="sourceFile" value="$PROJECT_DIR$/../searchbooks_icon/business-color_books_icon-icons.com_53474.svg" />
                           </map>
                         </option>
                       </PersistentState>

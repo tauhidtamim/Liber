@@ -12,9 +12,10 @@
         android:layout_height="400dp"
         android:padding="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/reading" />
+        app:srcCompat="@drawable/ic_reading_person" />
 
     <TextView
         android:id="@+id/slider_heading"
