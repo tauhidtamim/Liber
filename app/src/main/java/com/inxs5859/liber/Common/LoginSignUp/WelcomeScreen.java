@@ -33,4 +33,17 @@ public class WelcomeScreen extends AppCompatActivity {
         startActivity(intent,options.toBundle());
 
     }
+
+    public void callSignUpScreen(View view){
+
+        Intent intent = new Intent(getApplicationContext(),SignUp.class);
+
+        Pair[] pairs  = new Pair[1];
+        pairs[0] = new Pair<View,String>(findViewById(R.id.signup_btn),"transition_signup");
+
+        //DOESN'T WORK BELOW LOLLIPOP
+        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(WelcomeScreen.this,pairs);
+        startActivity(intent,options.toBundle());
+
+    }
 }

@@ -32,7 +32,7 @@
             android:text="@string/login_screen_heading"
             android:textAllCaps="true"
             android:textColor="@color/black"
-            android:textSize="40sp"></TextView>
+            android:textSize="40sp"/>
 
         <LinearLayout
             android:layout_width="match_parent"

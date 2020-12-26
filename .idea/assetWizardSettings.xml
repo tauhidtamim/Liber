@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/home/tmt02/Downloads/android%20studio/android-studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/settings/baseline_settings_24.xml" />
+                                      <entry key="url" value="jar:file:/home/tmt02/Downloads/android%20studio/android-studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/email/baseline_email_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_welcome_screen_icon" />
+                            <entry key="outputName" value="ic_email_icon" />
                             <entry key="sourceFile" value="$PROJECT_DIR$/../searchbooks_icon/business-color_books_icon-icons.com_53474.svg" />
                           </map>
                         </option>

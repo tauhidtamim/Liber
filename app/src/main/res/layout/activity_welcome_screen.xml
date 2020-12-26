@@ -55,8 +55,7 @@
                 android:onClick="callLoginScreen"
                 android:text="@string/login_btn"
                 android:textColor="@color/white"
-                android:transitionName="transition_login"
-                />
+                android:transitionName="transition_login" />
 
             <Button
                 android:id="@+id/signup_btn"
@@ -66,7 +65,9 @@
                 android:layout_weight="1"
                 android:background="@color/colorPrimary"
                 android:text="@string/signup_btn"
-                android:textColor="@color/white" />
+                android:onClick="callSignUpScreen"
+                android:textColor="@color/white"
+                android:transitionName="transition_signup"/>
 
 
         </LinearLayout>
