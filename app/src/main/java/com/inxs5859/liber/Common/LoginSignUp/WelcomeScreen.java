@@ -1,10 +1,16 @@
 package com.inxs5859.liber.Common.LoginSignUp;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ActivityOptions;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkCapabilities;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Pair;
 import android.view.View;
 import android.view.WindowManager;
@@ -23,6 +29,12 @@ public class WelcomeScreen extends AppCompatActivity {
 
     public void callLoginScreen(View view){
 
+        //check internet connection
+        if(!isConnected(this)){
+            showCustomDialog();
+            return;
+        }
+
         Intent intent = new Intent(getApplicationContext(),Login.class);
 
         Pair[] pairs  = new Pair[1];
@@ -36,6 +48,12 @@ public class WelcomeScreen extends AppCompatActivity {
 
     public void callSignUpScreen(View view){
 
+        //check internet connection
+        if(!isConnected(this)){
+            showCustomDialog();
+            return;
+        }
+
         Intent intent = new Intent(getApplicationContext(),SignUp.class);
 
         Pair[] pairs  = new Pair[1];
@@ -46,4 +64,47 @@ public class WelcomeScreen extends AppCompatActivity {
         startActivity(intent,options.toBundle());
 
     }
+
+
+    private boolean isConnected(WelcomeScreen welcomeScreen) {
+
+        ConnectivityManager connectivityManager = (ConnectivityManager) welcomeScreen.getSystemService(Context.CONNECTIVITY_SERVICE);
+        if(connectivityManager != null) {
+            NetworkCapabilities networkCapabilities = connectivityManager.getNetworkCapabilities(connectivityManager.getActiveNetwork());
+
+            if(networkCapabilities != null){
+
+                if(networkCapabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) || networkCapabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR)){
+                    return true;
+                }
+
+            }
+        }
+
+        return false;
+    }
+
+    private void showCustomDialog() {
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Please connect to the internet to proceed further!")
+                .setCancelable(false)
+                .setPositiveButton("Connect", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        startActivity(new Intent(Settings.ACTION_WIFI_SETTINGS));
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+        });
+
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+
+    }
+
 }

@@ -1,10 +1,17 @@
 package com.inxs5859.liber.Common.LoginSignUp;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkCapabilities;
+import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -34,6 +41,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void validateFields(View view) {
+
 
         //hooks
         userName = findViewById(R.id.username);
@@ -91,7 +99,6 @@ public class Login extends AppCompatActivity {
 
 
     }
-
 
 
 }
