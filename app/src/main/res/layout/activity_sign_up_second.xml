@@ -53,6 +53,7 @@
             </TextView>
 
             <RadioGroup
+                android:id="@+id/radio_group"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
@@ -60,19 +61,19 @@
                 android:layout_marginTop="10dp">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/male"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Male" />
 
                 <RadioButton
-                    android:id="@+id/radioButton3"
+                    android:id="@+id/female"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Female" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/other"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Other" />
@@ -96,6 +97,7 @@
             </TextView>
 
             <DatePicker
+                android:id="@+id/age_picker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:datePickerMode="spinner"
@@ -116,6 +118,7 @@
             android:text="@string/signup_btn"
             android:textColor="@color/white"
             android:transitionName="transition_next_btn"
+            android:onClick="signUp"
             >
 
         </Button>

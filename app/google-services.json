@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "235909631215",
+    "project_id": "liber-42166",
+    "storage_bucket": "liber-42166.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235909631215:android:18aecfbea4b17b37145f1a",
+        "android_client_info": {
+          "package_name": "com.inxs5859.liber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235909631215-oc827ob9gq599gtfk2bk85h5cqlj2nuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1t6lgxSO1JwwH8grhCQQ_PSRHtcCPrB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235909631215-oc827ob9gq599gtfk2bk85h5cqlj2nuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 
+import com.inxs5859.liber.Databases.SessionManager;
 import com.inxs5859.liber.R;
 import com.ismaeldivita.chipnavigation.ChipNavigationBar;
 
@@ -71,5 +73,7 @@ public class UserDashboard extends AppCompatActivity {
 
 
     }
+
+
 
 }

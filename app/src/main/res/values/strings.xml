@@ -44,5 +44,7 @@
     <string name="stats_fragment">STATS FRAGMENT</string>
     <string name="settings_fragment">SETTINGS FRAGMENT</string>
 
+<!--    settings fragment string-->
+    <string name="settings_fragment_logout">LOG OUT</string>
 
 </resources>
