@@ -1,7 +1,5 @@
 package com.inxs5859.liber.Common.LoginSignUp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,8 +9,11 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.inxs5859.liber.HelperClasses.Book;
 import com.inxs5859.liber.HelperClasses.UserHelperClass;
 import com.inxs5859.liber.R;
 
@@ -46,9 +47,9 @@ public class SignUpSecond extends AppCompatActivity {
     }
 
 
-    public void signUp(View view){
+    public void signUp(View view) {
 
-        if(!validateAge() || !validateGender()){
+        if (!validateAge() || !validateGender()) {
             return;
         }
 
@@ -59,7 +60,7 @@ public class SignUpSecond extends AppCompatActivity {
         int month = datePicker.getMonth();
         int year = datePicker.getYear();
 
-        date = day+"/"+month+"/"+year;
+        date = day + "/" + month + "/" + year;
 
         //System.out.println("I AM HERE");
 
@@ -73,13 +74,26 @@ public class SignUpSecond extends AppCompatActivity {
 
     }
 
-    private void storeNewUserData(){
+    private void storeNewUserData() {
 
         FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
         DatabaseReference reference = rootNode.getReference("Users");
 
-        UserHelperClass newUser = new UserHelperClass(fullName,userName,password,email,gender,date);
+        //store user details
+        UserHelperClass newUser = new UserHelperClass(fullName, userName, password, email, gender, date);
         reference.child(userName).setValue(newUser);
+
+        Book book = new Book("Null", "Null", "Null");
+
+        //add shelf of the user in read, to read, current
+        reference = rootNode.getReference("Read");
+        reference.child(userName).child("Null & Null").setValue(book);
+
+        reference = rootNode.getReference("ToRead");
+        reference.child(userName).child("Null & Null").setValue(book);
+
+        reference = rootNode.getReference("Current");
+        reference.child(userName).child("Null & Null").setValue(book);
 
     }
 

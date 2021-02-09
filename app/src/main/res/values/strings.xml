@@ -55,4 +55,29 @@
     <string name="settings_fragment_logout">LOG OUT</string>
 
 
+    <!--    book row design xml string-->
+    <string name="remove_btn">Remove From Shelf</string>
+
+    <!--    search fragment string-->
+    <string name="search_fragment_hint">Enter Book Titles..</string>
+    <string name="search_btn">SEARCH</string>
+    <string name="message">Books You Search For Will Appear Here!</string>
+
+    <!--  add books fragment string -->
+    <string name="read_btn">READ</string>
+    <string name="curread_btn">CURRENTLY READING</string>
+    <string name="toread_btn">WANT TO READ</string>
+    <string name="Shelf">ADD TO SHELF:</string>
+
+    <!--  book row design read string -->
+    <string name="date_text">Date Added:</string>
+
+    <!--  add books to read fragment string -->
+    <string name="instr">Rate This Book and Tell Us When You Read It! </string>
+    <string name="add_btn"> Add To Shelf </string>
+    <string name="set_read_date"> Set Read Date </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

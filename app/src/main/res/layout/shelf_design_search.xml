@@ -28,12 +28,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/black"
-            android:textSize="25dp"
-            android:textStyle="bold"
             android:layout_toRightOf="@+id/img"
             android:gravity="center_vertical"
-            />
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/sub_heading"
@@ -41,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:textColor="@color/black"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:textStyle="bold"
             android:layout_toRightOf="@+id/img"
             android:layout_below="@id/heading"

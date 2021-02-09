@@ -20,33 +20,42 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="5dp"
             android:layout_marginTop="8dp"
-            android:src="@mipmap/ic_launcher"/>
-
+            android:src="@mipmap/ic_launcher" />
 
         <TextView
-            android:id="@+id/heading"
+            android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img"
             android:textColor="@color/black"
             android:textSize="25dp"
             android:textStyle="bold"
-            android:layout_toRightOf="@+id/img"
             android:gravity="center_vertical"
             />
 
         <TextView
-            android:id="@+id/sub_heading"
+            android:id="@+id/author"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/title"
             android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img"
             android:textColor="@color/black"
             android:textSize="15dp"
-            android:textStyle="bold"
-            android:layout_toRightOf="@+id/img"
-            android:layout_below="@id/heading"
-            />
+            android:textStyle="bold" />
 
+        <Button
+            android:id="@+id/remove_btn"
+            android:background="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/author"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginLeft="150dp"
+            android:text="@string/remove_btn"
+            android:textColor="@color/white"
+            />
 
 
     </RelativeLayout>
