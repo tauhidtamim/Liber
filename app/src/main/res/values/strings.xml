@@ -43,12 +43,7 @@
     <string name="sub_heading">YOUR BOOKSHELF</string>
 
     <!-- fragment strings -->
-    <string name="search_fragment">SEARCH FRAGMENT</string>
-    <string name="stats_fragment">STATS FRAGMENT</string>
     <string name="settings_fragment">SETTINGS FRAGMENT</string>
-    <string name="read_fragment">READ FRAGMENT</string>
-    <string name="current_read_fragment">CURRENTLY READING FRAGMENT</string>
-    <string name="to_read_fragment">WANT TO READ FRAGMENT</string>
 
 
     <!--    settings fragment string-->
@@ -70,14 +65,20 @@
     <string name="Shelf">ADD TO SHELF:</string>
 
     <!--  book row design read string -->
-    <string name="date_text">Date Added:</string>
+    <string name="date_text">Date Read:</string>
 
     <!--  add books to read fragment string -->
     <string name="instr">Rate This Book and Tell Us When You Read It! </string>
     <string name="add_btn"> Add To Shelf </string>
     <string name="set_read_date"> Set Read Date </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--  stats fragment string -->
+    <string name="challenge_heading">READING CHALLENGE</string>
+    <string name="empty_heading">You\'ve Not Set Your Goal Yet.</string>
+    <string name="set_btn_text">SET GOAL</string>
+    <string name="edit_btn_text">EDIT GOAL</string>
+    <string name="hint"># Books</string>
+    <string name="month_heading"> Books Read This Month: </string>
 
 
 </resources>

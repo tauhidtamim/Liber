@@ -105,8 +105,6 @@ public class SearchFragment extends Fragment {
                     e.printStackTrace();
                 }
 
-                System.out.println(items.length());
-
                 for (int i = 0; i < items.length(); i++){
                     try {
                         JSONObject item = items.getJSONObject(i);
@@ -122,7 +120,9 @@ public class SearchFragment extends Fragment {
                             thumbnail = thumbnail.replace("http:", "https:");
                         }
 
-                        //System.out.println(thumbnail);
+                        if(imageLinks==null){
+                            continue;
+                        }
 
                         JSONArray authors = volumeObj.getJSONArray("authors");
                         if (authors.length() == 1) {

@@ -5,11 +5,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -29,51 +31,66 @@ public class FirebaseRecyclerAdapterRead extends com.firebase.ui.database.Fireba
 
     @Override
     protected void onBindViewHolder(@NonNull final myViewHolder holder, int position, @NonNull BookRead model) {
-        holder.Title.setText(model.getTitle());
-        holder.Author.setText(model.getAuthor());
-        String imageLink = model.getThumbnail();
-        if(!imageLink.isEmpty() && !imageLink.equals("Null")) {
-            Picasso.get().load(imageLink).into(holder.Thumbnail);
-        }
-        holder.ratingBar.setRating(Float.parseFloat(model.getReview()));
-        holder.Date.setText(model.getDate());
 
-        //get shelf
-        DatabaseReference databaseReference = getRef(position).getParent().getParent();
-        final String shelf = databaseReference.getKey();
+        String tempTitle = model.getTitle();
+        String tempAuthor = model.getAuthor();
 
-        //get user
-        databaseReference = getRef(position).getParent();
-        final String userName = databaseReference.getKey();
+        if (tempAuthor.equals("Null") && tempTitle.equals("Null")) {
 
-        //get book
-        databaseReference = getRef(position);
-        final String book = databaseReference.getKey();
+            holder.rootView.setLayoutParams(holder.params);
 
-        //remove a book from shelf
-        holder.removeBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(v.getContext(), "BOOK REMOVED FROM THE SHELF!", Toast.LENGTH_LONG).show();
-                FirebaseDatabase.getInstance().getReference(shelf).child(userName).child(book).removeValue();
+        } else {
+
+            holder.Title.setText(model.getTitle());
+            holder.Author.setText(model.getAuthor());
+            String imageLink = model.getThumbnail();
+            if (!imageLink.isEmpty() && !imageLink.equals("Null")) {
+                Picasso.get().load(imageLink).into(holder.Thumbnail);
             }
-        });
+            holder.ratingBar.setRating(Float.parseFloat(model.getReview()));
+            holder.Date.setText(model.getDate());
+
+            //get shelf
+            DatabaseReference databaseReference = getRef(position).getParent().getParent();
+            final String shelf = databaseReference.getKey();
+
+            //get user
+            databaseReference = getRef(position).getParent();
+            final String userName = databaseReference.getKey();
+
+            //get book
+            databaseReference = getRef(position);
+            final String book = databaseReference.getKey();
+
+            //remove a book from shelf
+            holder.removeBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(v.getContext(), "BOOK REMOVED FROM THE SHELF!", Toast.LENGTH_LONG).show();
+                    FirebaseDatabase.getInstance().getReference(shelf).child(userName).child(book).removeValue();
+                }
+            });
+
+        }
 
     }
 
     @NonNull
     @Override
     public myViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.book_row_design_only_read,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.book_row_design_only_read, parent, false);
         return new myViewHolder(view);
     }
 
-    public class myViewHolder extends RecyclerView.ViewHolder{
+    public class myViewHolder extends RecyclerView.ViewHolder {
 
-        TextView Author,Title, Date;
+        TextView Author, Title, Date;
         ImageView Thumbnail;
         Button removeBtn;
         RatingBar ratingBar;
+
+        LinearLayout.LayoutParams params;
+        CardView rootView;
 
         public myViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -84,10 +101,12 @@ public class FirebaseRecyclerAdapterRead extends com.firebase.ui.database.Fireba
             removeBtn = itemView.findViewById(R.id.remove_btn);
             Date = itemView.findViewById(R.id.date);
             ratingBar = itemView.findViewById(R.id.review);
+            rootView = itemView.findViewById(R.id.book_row_read);
+
+            params = new LinearLayout.LayoutParams(0,0);
 
         }
     }
-
 
 
 }

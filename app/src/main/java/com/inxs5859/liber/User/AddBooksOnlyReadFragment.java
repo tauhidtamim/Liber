@@ -136,8 +136,18 @@ public class AddBooksOnlyReadFragment extends Fragment {
                 DatabaseReference databaseReference = FirebaseDatabase.getInstance()
                         .getReference("Read").child(userName);
 
+                String key = Title + " & " + Author;
+                //removing whitespaces
+                key = key.replaceAll("\\s+", "");
+                //removing some characters because firebase paths must not contain these
+                key = key.replace(".","");
+                key = key.replace("#","");
+                key = key.replace("$","");
+                key = key.replace("[","");
+                key = key.replace("]","");
+
                 BookRead bookRead = new BookRead(Author,Title,Thumbnail,Review,Date);
-                databaseReference.child(Title+" & "+Author).setValue(bookRead);
+                databaseReference.child(key).setValue(bookRead);
                 Toast.makeText(getContext(), "BOOK ADDED TO YOUR READ SHELF", Toast.LENGTH_LONG).show();
                 onBackPressed();
             }

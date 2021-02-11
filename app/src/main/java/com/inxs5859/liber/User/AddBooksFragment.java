@@ -103,12 +103,7 @@ public class AddBooksFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                //add read book to read shelf
-                /*BookRead bookRead = new BookRead(Author,Title,Thumbnail,Review,Date);
-                DatabaseReference reference = rootNode.getReference("Read").child(userName);
-                reference.child(Title+" & "+Author).setValue(bookRead);
-                Toast.makeText(getContext(), "BOOK ADDED TO YOUR READ SHELF", Toast.LENGTH_LONG).show();
-                onBackPressed();*/
+                //go to review and date add fragment
                 AppCompatActivity appCompatActivity = (AppCompatActivity)getContext();
                 appCompatActivity.getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container,
@@ -122,10 +117,20 @@ public class AddBooksFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
+                String key = Title + " & " + Author;
+                //removing whitespaces
+                key = key.replaceAll("\\s+", "");
+                //removing some characters because firebase paths must not contain these
+                key = key.replace(".","");
+                key = key.replace("#","");
+                key = key.replace("$","");
+                key = key.replace("[","");
+                key = key.replace("]","");
+
                 //add cur-read book to cur-read shelf
                 Book book = new Book(Author,Title,Thumbnail);
                 DatabaseReference reference = rootNode.getReference("Current").child(userName);
-                reference.child(Title+" & "+Author).setValue(book);
+                reference.child(key).setValue(book);
                 Toast.makeText(getContext(), "BOOK ADDED TO YOUR CURRENTLY READING SHELF", Toast.LENGTH_LONG).show();
                 onBackPressed();
 
@@ -136,10 +141,20 @@ public class AddBooksFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
+                String key = Title + " & " + Author;
+                //removing whitespaces
+                key = key.replaceAll("\\s+", "");
+                //removing some characters because firebase paths must not contain these
+                key = key.replace(".","");
+                key = key.replace("#","");
+                key = key.replace("$","");
+                key = key.replace("[","");
+                key = key.replace("]","");
+
                 //add to-read book to to-read shelf
                 Book book = new Book(Author,Title,Thumbnail);
                 DatabaseReference reference = rootNode.getReference("ToRead").child(userName);
-                reference.child(Title+" & "+Author).setValue(book);
+                reference.child(key).setValue(book);
                 Toast.makeText(getContext(), "BOOK ADDED TO YOUR WANT TO READ SHELF", Toast.LENGTH_LONG).show();
                 onBackPressed();
 
