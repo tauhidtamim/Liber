@@ -15,13 +15,14 @@ import com.inxs5859.liber.Common.LoginSignUp.WelcomeScreen;
 import com.inxs5859.liber.Databases.SessionManager;
 import com.inxs5859.liber.R;
 
+import java.time.Year;
 import java.util.HashMap;
 
 
 public class ProfileFragment extends Fragment {
 
     String fullName, userName, password, email, gender, date;
-    TextView tvFull, tvUser, tvEmail, tvBirth;
+    TextView tvFull, tvUser, tvEmail, tvBirth, tvCopyright;
     Button logoutBtn;
 
 
@@ -48,18 +49,22 @@ public class ProfileFragment extends Fragment {
         tvUser = root.findViewById(R.id.user_name);
         tvEmail = root.findViewById(R.id.email);
         tvBirth = root.findViewById(R.id.bday);
+        tvCopyright = root.findViewById(R.id.copyright);
 
         //format strings to display
         String temp_full = "Full Name: " + fullName;
         String temp_user = "User Name: " + userName;
         String temp_email = "Email: " + email;
         String temp_birth = "Birthday: " + date;
+        String copy = "©";
+        copy = copy + String.valueOf(Year.now().getValue());
 
         //display fetched data
         tvFull.setText(temp_full);
         tvUser.setText(temp_user);
         tvEmail.setText(temp_email);
         tvBirth.setText(temp_birth);
+        tvCopyright.setText(copy);
 
 
         //log out

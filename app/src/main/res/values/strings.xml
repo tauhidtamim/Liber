@@ -49,12 +49,13 @@
     <string name="sub_heading">YOUR BOOKSHELF</string>
 
     <!--    profile fragment string-->
-    <string name="profile_fragment_logout">LOG OUT</string>
+    <string name="profile_fragment_logout">Log Out</string>
     <string name="profile_user_title">User Information</string>
     <string name="profile_user_full">Full Name:</string>
     <string name="profile_user_name">User Name:</string>
     <string name="profile_user_email">Email:</string>
     <string name="profile_user_bday">Birthday:</string>
+    <string name="profile_app_name">Liber</string>
 
 
     <!--    book row design xml string-->

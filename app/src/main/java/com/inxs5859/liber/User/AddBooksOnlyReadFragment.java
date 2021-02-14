@@ -94,6 +94,8 @@ public class AddBooksOnlyReadFragment extends Fragment {
             Picasso.get().load(Thumbnail).into(thumbnail);
         }
 
+        datePicker.setFocusable(false);
+
         datePicker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

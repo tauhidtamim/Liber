@@ -114,16 +114,50 @@
 
         </androidx.cardview.widget.CardView>
 
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="86dp"
+            android:fontFamily="@font/brandon_grotesque_bold_italic"
+            android:text="@string/profile_app_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="64sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_card" />
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/muli_extralight"
+            android:text="@string/profile_app_name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/app_name" />
+
+
+
         <Button
             android:id="@+id/logout_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginStart="150dp"
-            android:layout_marginTop="84dp"
+            android:layout_marginTop="8dp"
             android:text="@string/profile_fragment_logout"
+            android:textSize="12sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/profile_card" />
+            app:layout_constraintTop_toBottomOf="@id/copyright" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
