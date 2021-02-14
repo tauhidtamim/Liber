@@ -48,6 +48,11 @@
     <string name="heading">Hello</string>
     <string name="sub_heading">YOUR BOOKSHELF</string>
 
+    <!--    read/current/to-read fragment strings-->
+    <string name="read_heading">Your Read Shelf</string>
+    <string name="curread_heading">Your Currently Reading Shelf</string>
+    <string name="toread_heading">Your To-Read Shelf</string>
+
     <!--    profile fragment string-->
     <string name="profile_fragment_logout">Log Out</string>
     <string name="profile_user_title">User Information</string>
