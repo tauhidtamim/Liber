@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d647db93-1190-4020-8c26-84990c90b59e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,46 +27,38 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/HelperClasses/FirebaseRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/HelperClasses/FirebaseRecyclerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/HelperClasses/FirebaseRecyclerAdapterRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/HelperClasses/FirebaseRecyclerAdapterRead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/AddBooksFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/AddBooksFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/AddBooksOnlyReadFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/AddBooksOnlyReadFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/SearchFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/SearchFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/SettingsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/ProfileFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/StatsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/StatsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/UserDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/inxs5859/liber/User/UserDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_nav_settings_icon.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_row_design.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_row_design.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/book_row_design_only_read.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/book_row_design_only_read.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_currently_reading.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_currently_reading.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_books.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_books.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_books_only_read.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_add_books_only_read.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_stats.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_stats.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_to_read.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_to_read.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shelf_design.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shelf_design.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shelf_design_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/shelf_design_search.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation_menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="R58N644JG1P" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -105,9 +98,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -292,10 +285,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1613045367293" />
-    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1611767210326">
+    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1613233847226">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1611767210326" />
+    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1613233847226" />
     <state x="539" y="211" width="344" height="371" key="AndroidCreateXmlResourceDialog" timestamp="1613038327957">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -308,22 +301,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="680" y="234" width="541" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1613045454675" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1613048442841">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1613302268407">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1613048442841" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1613048442841">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1613302268407" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1613302268407">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1613048442841" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1613048442841">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1613302268407" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1613302268407">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1613048442841" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1613048442841">
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1613302268407" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1613302268407">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1613048442841" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1613302268407" />
     <state x="198" y="31" key="SettingsEditor" timestamp="1608459682431">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -332,18 +325,18 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="473" y="176" width="476" height="441" key="chooseDestDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1608643702054" />
-    <state x="364" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1613029324480">
+    <state x="364" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1613234050247">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="364" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1613029324480" />
+    <state x="364" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1613234050247" />
     <state x="157" y="27" width="892" height="741" key="find.popup" timestamp="1608992868215">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="157" y="27" width="892" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1608992868215" />
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup" timestamp="1609242976419">
+    <state x="380" y="175" width="672" height="677" key="run.anything.popup" timestamp="1613224942343">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1609242976419" />
+    <state x="380" y="175" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1613224942343" />
     <state x="379" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1608489865699">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

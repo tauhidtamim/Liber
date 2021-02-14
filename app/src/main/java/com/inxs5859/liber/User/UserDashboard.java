@@ -1,17 +1,11 @@
 package com.inxs5859.liber.User;
 
-import androidx.annotation.RequiresPermission;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 
-import android.graphics.Rect;
 import android.os.Bundle;
-import android.view.View;
 import android.view.WindowManager;
-import android.widget.Toast;
 
-import com.inxs5859.liber.Databases.SessionManager;
 import com.inxs5859.liber.R;
 import com.ismaeldivita.chipnavigation.ChipNavigationBar;
 
@@ -67,8 +61,8 @@ public class UserDashboard extends AppCompatActivity {
                     case R.id.stats:
                         fragment = new StatsFragment();
                         break;
-                    case R.id.settings:
-                        fragment = new SettingsFragment();
+                    case R.id.profile:
+                        fragment = new ProfileFragment();
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,fragment).commit();

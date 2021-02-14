@@ -1,18 +1,20 @@
 package com.inxs5859.liber.User;
 
+import android.content.Context;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -21,6 +23,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 import com.inxs5859.liber.HelperClasses.BookAdapter;
 import com.inxs5859.liber.HelperClasses.BookInfo;
 import com.inxs5859.liber.R;
@@ -30,8 +33,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-
-import static java.lang.Long.min;
 
 
 public class SearchFragment extends Fragment {
@@ -49,7 +50,7 @@ public class SearchFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view =  inflater.inflate(R.layout.fragment_search, container, false);
+        View view = inflater.inflate(R.layout.fragment_search, container, false);
 
         searchBtn = view.findViewById(R.id.search_button);
         searchBooks = view.findViewById(R.id.search_text);
@@ -62,7 +63,7 @@ public class SearchFragment extends Fragment {
             public void onClick(View v) {
                 progressBar.setVisibility(View.VISIBLE);
                 message.setVisibility(View.GONE);
-                if(searchBooks.getText().toString().isEmpty()){
+                if (searchBooks.getText().toString().isEmpty()) {
                     searchBooks.setError("Please enter search query");
                     return;
                 }
@@ -71,6 +72,13 @@ public class SearchFragment extends Fragment {
                 searchTerm = searchBooks.getText().toString();
                 searchTerm = searchTerm + "&maxResults=40";
                 getBooksInfo(searchTerm);
+
+                try {
+                    InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken(), 0);
+                } catch (Exception e) {
+                    // TODO: handle exception
+                }
             }
         });
 
@@ -105,22 +113,22 @@ public class SearchFragment extends Fragment {
                     e.printStackTrace();
                 }
 
-                for (int i = 0; i < items.length(); i++){
+                for (int i = 0; i < items.length(); i++) {
                     try {
                         JSONObject item = items.getJSONObject(i);
                         JSONObject volumeObj = item.getJSONObject("volumeInfo");
 
                         String title = volumeObj.getString("title");
-                        String author="",thumbnail="";
+                        String author = "", thumbnail = "";
 
                         JSONObject imageLinks = volumeObj.optJSONObject("imageLinks");
 
-                        if(imageLinks != null) {
+                        if (imageLinks != null) {
                             thumbnail = imageLinks.optString("smallThumbnail");
                             thumbnail = thumbnail.replace("http:", "https:");
                         }
 
-                        if(imageLinks==null){
+                        if (imageLinks == null) {
                             continue;
                         }
 
@@ -144,7 +152,7 @@ public class SearchFragment extends Fragment {
                         recyclerView.setLayoutManager(linearLayoutManager);
                         recyclerView.setAdapter(adapter);
 
-                    } catch (JSONException e){
+                    } catch (JSONException e) {
                         e.printStackTrace();
                     }
                 }

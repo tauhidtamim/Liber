@@ -108,7 +108,7 @@ public class AddBooksFragment extends Fragment {
                 appCompatActivity.getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container,
                                 new AddBooksOnlyReadFragment(Title,Author,Thumbnail, userName))
-                        .commit();
+                        .addToBackStack(null).commit();
 
             }
         });

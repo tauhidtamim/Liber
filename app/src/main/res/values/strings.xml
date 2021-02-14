@@ -15,6 +15,12 @@
     <string name="lets_get_started"> LET\'S GET STARTED! </string>
     <string name="skip_btn"> SKIP </string>
 
+    <!--    strings for navigation bar-->
+    <string name="my_books"> My Books </string>
+    <string name="search"> Search </string>
+    <string name="stats"> Stats </string>
+    <string name="profile"> Profile </string>
+
 
     <!--    strings for welcome screen-->
 
@@ -42,12 +48,13 @@
     <string name="heading">Hello</string>
     <string name="sub_heading">YOUR BOOKSHELF</string>
 
-    <!-- fragment strings -->
-    <string name="settings_fragment">SETTINGS FRAGMENT</string>
-
-
-    <!--    settings fragment string-->
-    <string name="settings_fragment_logout">LOG OUT</string>
+    <!--    profile fragment string-->
+    <string name="profile_fragment_logout">LOG OUT</string>
+    <string name="profile_user_title">User Information</string>
+    <string name="profile_user_full">Full Name:</string>
+    <string name="profile_user_name">User Name:</string>
+    <string name="profile_user_email">Email:</string>
+    <string name="profile_user_bday">Birthday:</string>
 
 
     <!--    book row design xml string-->
@@ -57,6 +64,7 @@
     <string name="search_fragment_hint">Enter Book Titles..</string>
     <string name="search_btn">SEARCH</string>
     <string name="message">Books You Search For Will Appear Here!</string>
+    <string name="search_heading">Explore The Books You Are Looking For Here!</string>
 
     <!--  add books fragment string -->
     <string name="read_btn">READ</string>
@@ -71,6 +79,9 @@
     <string name="instr">Rate This Book and Tell Us When You Read It! </string>
     <string name="add_btn"> Add To Shelf </string>
     <string name="set_read_date"> Set Read Date </string>
+    <string name="book_title"> Book Title: </string>
+    <string name="author_title"> Author: </string>
+    <string name="rating_title"> Rate: </string>
 
     <!--  stats fragment string -->
     <string name="challenge_heading">READING CHALLENGE</string>

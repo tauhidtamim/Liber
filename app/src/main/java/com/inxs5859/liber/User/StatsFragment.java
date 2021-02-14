@@ -256,9 +256,9 @@ public class StatsFragment extends Fragment {
         Description description = lineChart.getDescription();
         description.setEnabled(true);
         String text = String.valueOf(Year.now().getValue());
-        text = text + " in Books";
+        text = text + " In Books";
         description.setText(text);
-        description.setTextSize(12f);
+        description.setTextSize(16f);
         description.setPosition(1000f, 50f);
 
 

@@ -34,24 +34,50 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="116dp"
             android:layout_marginTop="150dp"
+            android:background="@drawable/rectanglebox"
             android:src="@mipmap/ic_launcher"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <TextView
-            android:id="@+id/title"
-            android:layout_width="match_parent"
+            android:id="@+id/book_title"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="44dp"
-            android:maxLines="2"
-            android:minLines="1"
+            android:text="@string/book_title"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/img" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@id/book_title"
+            app:layout_constraintTop_toBottomOf="@+id/img" />
+
+
+        <TextView
+            android:id="@+id/author_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/author_title"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/book_title" />
 
         <TextView
             android:id="@+id/author"
@@ -60,22 +86,38 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:textColor="@color/black"
-            android:textSize="15sp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@id/author_title"
+            app:layout_constraintTop_toBottomOf="@+id/book_title" />
+
+
+        <TextView
+            android:id="@+id/rating_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="64dp"
+            android:text="@string/rating_title"
+            android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title" />
+            app:layout_constraintTop_toBottomOf="@+id/book_title" />
 
 
         <RatingBar
             android:id="@+id/ratingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="52dp"
             android:numStars="5"
             android:rating="0"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
             android:stepSize="1"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@id/rating_title"
             app:layout_constraintTop_toBottomOf="@+id/title" />
 
 
