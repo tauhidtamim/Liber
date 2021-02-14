@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.inxs5859.liber.HelperClasses.Book;
+import com.inxs5859.liber.HelperClasses.BookRead;
 import com.inxs5859.liber.HelperClasses.UserHelperClass;
 import com.inxs5859.liber.R;
 
@@ -57,7 +58,7 @@ public class SignUpSecond extends AppCompatActivity {
         gender = selectedGender.getText().toString();
 
         int day = datePicker.getDayOfMonth();
-        int month = datePicker.getMonth();
+        int month = datePicker.getMonth() + 1;
         int year = datePicker.getYear();
 
         date = day + "/" + month + "/" + year;
@@ -84,10 +85,11 @@ public class SignUpSecond extends AppCompatActivity {
         reference.child(userName).setValue(newUser);
 
         Book book = new Book("Null", "Null", "Null");
+        BookRead bookRead = new BookRead("Null","Null","Null","Null","Null");
 
         //add shelf of the user in read, to read, current
         reference = rootNode.getReference("Read");
-        reference.child(userName).child("Null & Null").setValue(book);
+        reference.child(userName).child("Null & Null").setValue(bookRead);
 
         reference = rootNode.getReference("ToRead");
         reference.child(userName).child("Null & Null").setValue(book);
