@@ -11,19 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d647db93-1190-4020-8c26-84990c90b59e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_currently_reading.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_currently_reading.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_read.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_read.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_to_read.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_to_read.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,93 +228,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="311" y="58" width="800" height="677" key="#Auto_Import" timestamp="1609088150367">
+    <state x="364" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1635693195420">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="58" width="800" height="677" key="#Auto_Import/67.27.1299.741@67.27.1299.741" timestamp="1609088150367" />
-    <state x="236" y="131" width="950" height="530" key="#PSD" timestamp="1613029605699">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="236" y="131" width="950" height="530" key="#PSD/67.27.1299.741@67.27.1299.741" timestamp="1613029605699" />
-    <state x="823" y="118" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1613040156291">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="823" y="118" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1613040156291" />
-    <state x="450" y="180" width="524" height="445" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1609096546675">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="450" y="180" width="524" height="445" key="#com.intellij.ide.util.PackageChooserDialog/67.27.1299.741@67.27.1299.741" timestamp="1609096546675" />
-    <state x="449" y="182" width="525" height="429" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612196941177">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="449" y="182" width="525" height="429" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1299.741@67.27.1299.741" timestamp="1612196941177" />
-    <state x="461" y="255" width="560" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609096551258">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="461" y="255" width="560" height="295" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1299.741@67.27.1299.741" timestamp="1609096551258" />
-    <state x="449" y="145" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613044731038">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="449" y="145" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1613044731038" />
-    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceDirectoryDialog" timestamp="1613045367293">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1613045367293" />
-    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog" timestamp="1613233847226">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="299" y="154" width="824" height="484" key="AndroidCreateResourceFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1613233847226" />
-    <state x="539" y="211" width="344" height="371" key="AndroidCreateXmlResourceDialog" timestamp="1613038327957">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="539" y="211" width="344" height="371" key="AndroidCreateXmlResourceDialog/67.27.1299.741@67.27.1299.741" timestamp="1613038327957" />
-    <state x="366" y="154" width="690" height="484" key="Downloadable.Font.Dialog.Size" timestamp="1608495501151">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="366" y="154" width="690" height="484" key="Downloadable.Font.Dialog.Size/67.27.1299.741@67.27.1299.741" timestamp="1608495501151" />
-    <state x="680" y="234" width="541" height="484" key="FileChooserDialogImpl" timestamp="1613045454675">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="680" y="234" width="541" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1613045454675" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1613332100328">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1613332100328" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1613332100327">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1613332100327" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1613332100327">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1613332100327" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1613332100328">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1613332100328" />
-    <state x="198" y="31" key="SettingsEditor" timestamp="1608459682431">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="198" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1608459682431" />
-    <state x="473" y="176" width="476" height="441" key="chooseDestDirectoryDialog" timestamp="1613310810585">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="473" y="176" width="476" height="441" key="chooseDestDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1613310810585" />
-    <state x="364" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1613334681126">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="364" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1613334681126" />
-    <state x="157" y="27" width="892" height="741" key="find.popup" timestamp="1608992868215">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="157" y="27" width="892" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1608992868215" />
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup" timestamp="1613312470214">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="380" y="175" width="672" height="677" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1613312470214" />
-    <state x="379" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1608489865699">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="379" y="88" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1608489865699" />
+    <state x="364" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1635693195420" />
   </component>
 </project>
