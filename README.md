@@ -1,7 +1,5 @@
 # Liber
 
-**N.B: This repository/app is not maintained anymore. So the database may be out of service.**
-
 Liber is an android application developed as a semester project for our undergraduate course, CSE 4643: Mobile Application Development. Liber is a Latin word, which translates to 'book' in English. It's an app for book cataloging purposes. Please see the demonstration, given below, to get a better understanding. The inspiration was taken from the popular social cataloging website, [Goodreads][goodreads]. **Please leave a star in the repo, if you like it, or it helps you in your own project. :)** 
 
 # Table Of Contents
